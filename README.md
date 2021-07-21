@@ -1,10 +1,25 @@
-This is the public github repository for the "Db2 for z/OS DevOps Experience" IBM Redpaper.
+Description
+The goal of this document is to demonstrate the ability to perform single click automated deployments of multi-platform applications that include db2 for z/OS database schema changes. This is accomplished by exploiting process automation and capabilities delivered by IBM Db2 DevOps Experience for z/OS.
 
-Redpaper abstract:
+By pushing the application and database code changes to a SCM, it triggers a single CI/CD pipeline execution for both types of changes, and therefore mitigating the dependency on the DBA to deploy those database changes in a separate process. At the same time, DBAs can safeguard the integrity of their organization's data by implementing site rules in Db2 DevOps Experience. DBAs define whether a schema change can be approved automatically after all site rules are satisfied or whether it must be approved manually.
 
-Whether you're modernizing your existing applications or developing new application ones, applying DevOps agile practices and tools makes the whole project run faster and more smoothly by automating key steps, and improving operational efficiency, increasing standardization.
-When an organization decides to implement DevOps practices, they tend to focus primarily on implementing a DevOps pipeline to handle application code changes. However, in practice many application changes require database changes that also must be carefully considered in the context of a DevOps pipeline. Because changes to database schema are typically handled by database administrators (DBAs), DevOps introduces a dependency on DBAs to deploy code with multiple hand-offs between the DBA, the application developer, and the Data Modeler, which can result in unnecessary bottlenecks and deployment delays.
-A well-planned Enterprise DevOps pipeline should support changes of to all application components including database code changes on any platform, on-premises or in a public cloud. It should be able to handle applications on IBM Z using any supported language (Java, COBOL, Python and so forth) storing that stores data in a Db2 for z/OS database.
-In this document, we show you how you can manage database schemas in a source control management (SCM) system together with the application code and how you can integrate the process of implementing database code change into the same Enterprise DevOps pipeline using the same DevOps tools set.
-We provide an overview of the DevOps architecture in the context of a sample application. The steps to set up a pipeline for the sample application are described in the tutorial Build a pipeline with Jenkins, Dependency Based Build, and UrbanCode Deploy (https://developer.ibm.com/components/zos/tutorials/build-a-pipeline-with-jenkins-dependency-based-build-and-urbancode-deploy/). This document describes how to extend that DevOps pipeline to support Db2 for z/OS database schema changes.
-We also describe the roles of DevOps engineer who implements the enterprise DevOps pipeline, of the DBA who is responsible for database code changes in Db2 for z/OS and needs to enforce DBA rules to ensures good quality in production, and of the application developer who changes the application code and communicates requirements for changes in the database schema.
+We describe the steps as they are relevant to the roles of the DevOps engineer who implements the enterprise CI/CD pipeline, the DBA who is responsible for database code changes in Db2 for z/OS and defines site rules changes need to adhere to for good quality in production, and the application developer who changes the application code and communicates requirements for changes in the database schema.
+
+Code samples for the demo application used in this Redpaper can be downloaded at https://github.com/IBMRedbooks/REDP-5646-Db2-for-z-OS-DevOps-Experience.
+
+<p align="center">
+  <img alt="Git repository structure" src="images/cover.jpg">
+</p>
+
+Table of Contents
+
+Chapter 1.  Introduction
+Chapter 2.  Db2 database code changes in the CI/CD pipeline
+Chapter 3.  Description of sample application
+Chapter 4.  Architectural overview
+Chapter 5.  Code repository organization
+Chapter 6.  Delivering database changes at the same speed as application changes
+Chapter 7.  IBM UrbanCode Deploy
+Chapter 8.  Jenkins
+Chapter 9.  Application change execution, documentation of the demo
+Chapter 10.  Conclusion
