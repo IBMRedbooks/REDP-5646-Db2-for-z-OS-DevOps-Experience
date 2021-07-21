@@ -38,5 +38,5 @@ Code samples for the demo application used in this Redpaper can be downloaded at
 
 [Appendix](C012_appendix.md)
 
-[Glossary](C014_glossary.md)
+[Glossary](C013_glossary.md)
 
