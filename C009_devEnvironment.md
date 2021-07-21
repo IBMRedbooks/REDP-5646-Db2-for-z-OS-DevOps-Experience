@@ -66,9 +66,9 @@ Both extensions can also run on Eclipse Theia, which is an IDE that runs in a we
 
 For this demo, we chose VS Code and the two aforementioned IBM extensions to show how these tools can simplify and modernize the experience of developing Db2 applications for the mainframe.
 
-- [Installing VSCode](C010s01_vsc_install.md)
-- [Installing Db2 for z/OS Developer Extension and zOpenEditor](C010s02_vsc_extension.md)
-- [Setting up development workspace and work on code change](C010s03_vsc_repo.md)
-    - [Connect to the code repository with SSH](C010s03_vsc_repo.md#connecting-to-the-code-repository-with-ssh)
-    - [Clone the code repository](C010s03_vsc_repo.md#cloning-the-code-repository)
-- [Considering data modeling](C010s04_datamodeling.md)
+- [Installing VSCode](C009s01_vsc_install.md)
+- [Installing Db2 for z/OS Developer Extension and zOpenEditor](C009s02_vsc_extension.md)
+- [Setting up development workspace and work on code change](C009s03_vsc_repo.md)
+    - [Connect to the code repository with SSH](C009s03_vsc_repo.md#connecting-to-the-code-repository-with-ssh)
+    - [Clone the code repository](C009s03_vsc_repo.md#cloning-the-code-repository)
+- [Considering data modeling](C009s04_datamodeling.md)
