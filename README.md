@@ -14,23 +14,25 @@ Code samples for the demo application used in this Redpaper can be downloaded at
 
 ## Table of Contents
 
-**Chapter 1.  Introduction**
+[Chapter 1.  Introduction](C001_introduction.md)
 
-**Chapter 2.  Db2 database code changes in the CI/CD pipeline**
+[Chapter 2.  Db2 database code changes in the CI/CD pipeline](C002_position.md)
 
-**Chapter 3.  Description of sample application**
+[Chapter 3.  Description of sample application](C003_description_sampleApp.md)
 
-**Chapter 4.  Architectural overview**
+[Chapter 4.  Architectural overview](C004_architecture.md)
 
-**Chapter 5.  Code repository organization**
+[Chapter 5.  Code repository organization](C005_codeRepoOrganization.md)
 
-**Chapter 6.  Delivering database changes at the same speed as application changes**
+[Chapter 6.  Delivering database changes at the same speed as application changes](C006_doe_overall.md)
 
-**Chapter 7.  IBM UrbanCode Deploy**
+[Chapter 7.  IBM UrbanCode Deploy](C007_ucd_overall.md)
 
-**Chapter 8.  Jenkins**
+[Chapter 8.  Jenkins](C008_jenkins_overall.md)
 
-**Chapter 9.  Application change execution, documentation of the demo**
+[Chapter 9.  Application development tools for z/OS](C009_devEnvironment.md)
 
-**Chapter 10.  Conclusion**
+[Chapter 9.  Application change execution, documentation of the demo](C010_demo_overall.md)
+
+[Chapter 10.  Conclusion](C011_conclusion.md)
 
