@@ -14,12 +14,22 @@ Code samples for the demo application used in this Redpaper can be downloaded at
 Table of Contents
 
 Chapter 1.  Introduction
+
 Chapter 2.  Db2 database code changes in the CI/CD pipeline
+
 Chapter 3.  Description of sample application
+
 Chapter 4.  Architectural overview
+
 Chapter 5.  Code repository organization
+
 Chapter 6.  Delivering database changes at the same speed as application changes
+
 Chapter 7.  IBM UrbanCode Deploy
+
 Chapter 8.  Jenkins
+
 Chapter 9.  Application change execution, documentation of the demo
+
 Chapter 10.  Conclusion
+
