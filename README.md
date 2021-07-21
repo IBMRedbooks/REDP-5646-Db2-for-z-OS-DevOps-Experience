@@ -36,3 +36,7 @@ Code samples for the demo application used in this Redpaper can be downloaded at
 
 [Chapter 11.  Conclusion](C011_conclusion.md)
 
+[Appendix](C012_appendix.md)
+
+[Glossary](C014_glossary.md)
+
