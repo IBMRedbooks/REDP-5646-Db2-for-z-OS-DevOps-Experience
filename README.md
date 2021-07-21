@@ -32,7 +32,7 @@ Code samples for the demo application used in this Redpaper can be downloaded at
 
 [Chapter 9.  Application development tools for z/OS](C009_devEnvironment.md)
 
-[Chapter 9.  Application change execution, documentation of the demo](C010_demo_overall.md)
+[Chapter 10.  Application change execution, documentation of the demo](C010_demo_overall.md)
 
-[Chapter 10.  Conclusion](C011_conclusion.md)
+[Chapter 11.  Conclusion](C011_conclusion.md)
 
