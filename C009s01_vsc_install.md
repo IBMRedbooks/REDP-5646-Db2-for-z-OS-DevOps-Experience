@@ -7,4 +7,4 @@ After you download the file, follow the installation instructions for the operat
   - [Install VS Code on Linux](https://code.visualstudio.com/docs/setup/linux)
   - [Install VS Code on macOS](https://code.visualstudio.com/docs/setup/mac)
 
-When you've installed VS Code successfully, continue to [install the extensions](C010s02_vsc_extension.md). 
+When you've installed VS Code successfully, continue to [install the extensions](C009s02_vsc_extension.md). 
