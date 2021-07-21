@@ -6,7 +6,7 @@ By pushing the application and database code changes to a SCM, it triggers a sin
 
 We describe the steps as they are relevant to the roles of the DevOps engineer who implements the enterprise CI/CD pipeline, the DBA who is responsible for database code changes in Db2 for z/OS and defines site rules changes need to adhere to for good quality in production, and the application developer who changes the application code and communicates requirements for changes in the database schema.
 
-Code samples for the demo application used in this Redpaper can be downloaded at https://github.com/IBMRedbooks/REDP-5646-Db2-for-z-OS-DevOps-Experience/tree/main/code%20sample.
+Code samples for the demo application used in this Redpaper can be downloaded at [code sample](https://github.com/IBMRedbooks/REDP-5646-Db2-for-z-OS-DevOps-Experience/tree/main/code%20sample).
 
 <p align="center">
   <img alt="Git repository structure" src="images/cover.jpg">
